@@ -21,12 +21,12 @@ header{
     padding: 0;
 }
 
-.btn-primary{
+.btn-primary, .btn-primary-search{
     background-color: #F2A340;
     border: 2px solid #C28008;
 }
 
-.btn-primary:hover{
+.btn-primary:hover, .btn-primary-search:hover{
     background-color:  #C28008;
     border-color: #C28008;
 }
@@ -80,6 +80,13 @@ header{
 #search-container form{
     width: 50%;
     margin: 0 auto;
+}
+
+.btn-primary-search, .btn-primary-search:hover{
+  font-weight: 400;
+  color: #FFF;
+  width: 40%;
+  margin-top: 15px;
 }
 
 /* Lista de Eventos home/criar eventos*/
