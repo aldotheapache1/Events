@@ -62,7 +62,7 @@ header{
     color: #F2A340;    
 }
 
-/* Search*/
+/* Search home*/
 #search-container{
     background-image: url("../img/banner.jpg");
     background-size: cover;
@@ -82,7 +82,12 @@ header{
     margin: 0 auto;
 }
 
-/* Lista de Eventos*/
+/* Lista de Eventos home/criar eventos*/
+
+#no-events{
+  color: red;
+  font-weight: bold;
+}
 
 #events-container {
     padding: 50px;
@@ -146,7 +151,7 @@ header{
     font-size: 12px;
 }
 
-  /* pagina evento */
+  /* pagina evento show-event */
 
 #image-container,
 #info-container {
@@ -154,8 +159,6 @@ header{
 }
 
 #image-container img {
-  max-width: 100%;
-  max-height: 100%;
   border-radius: 10px;
 }
 
