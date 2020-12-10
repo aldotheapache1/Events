@@ -158,7 +158,7 @@ header{
     font-size: 12px;
 }
 
-  /* pagina evento show-event */
+/* pagina evento show-event */
 
 #image-container,
 #info-container {
@@ -166,6 +166,8 @@ header{
 }
 
 #image-container img {
+  width: 500px;
+  height: 270px;
   border-radius: 10px;
 }
 
