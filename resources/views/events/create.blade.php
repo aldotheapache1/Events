@@ -43,7 +43,7 @@
                               <input type="checkbox" name="items[]" value="Palco"> Palco
                         </div>
                         <div class="form-group">
-                              <input type="checkbox" name="items[]" valued="Brindes"> Brindes
+                              <input type="checkbox" name="items[]" value="Brindes"> Brindes
                         </div>
                         <div class="form-group">
                               <input type="checkbox" name="items[]" value="Comida"> Comida
