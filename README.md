@@ -1,5 +1,4 @@
 <h1 align="center">
-    <img alt="Events" title="Events" src="public/img/hdcevents_logo.svg" style="width: 50px;" />
     <p>Events</p>
 </h1>
 
