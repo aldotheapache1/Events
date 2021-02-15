@@ -37,6 +37,7 @@ Events é um site que oferece a possibilidade criar e Conectar-se a eventos loca
 
 ## 🌐 Funcionamento
 
+
 ```bash
 # 1º Instale o Laravel seguindo as instruções no link abaixo:
 https://laravel.com/docs/8.x/installation
@@ -44,12 +45,24 @@ https://laravel.com/docs/8.x/installation
 # 2º Clone o repositório com o comando abaixo:
 git clone https://github.com/aldotheapache1/Events-Laravel.git
 
-# 3º Crie ou modifique o arquivo .env com as informações da sua base de dados
+# 3º Crie ou modifique o arquivo .env com as informações da sua base de dados.
 
-# 4º Após a conexão do banco de dados estiver estabelecida, execute o comando abaixo, para criar a estrutura no seu banco de dados.
+# 4º Execute o comando abaixo para instalar as dependências.
+composer install
+
+# 5º Execute os comandos abaixo para a instalação do Jetstream e livewire.
+composer require laravel/jetstream
+
+php artisan jetstream:install livewire
+
+npm install
+
+npm run dev
+
+# 6º Após a conexão do banco de dados estiver estabelecida, execute o comando abaixo, para criar a estrutura no seu banco de dados.
 php artisan migrate
 
-# 5º Por fim, execute o comando abaixo e acesse em seu navegador o endereço: http://127.0.0.1:8000
+# 7º Por fim, execute o comando abaixo e acesse em seu navegador o endereço: http://127.0.0.1:8000
 php artisan serve
 
 ```
